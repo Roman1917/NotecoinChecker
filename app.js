@@ -88,8 +88,8 @@ fetchEvents();
 const fetch1 = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
 
-const BOT_TOKEN = "1172506435:AAEwq5VgTL4q_gUNkWDHwZWz-49Dlx_TEPQ"; // Replace with your actual bot token
-const CHAT_ID = "-602152864"; // Replace with your actual chat ID
+const BOT_TOKEN = "***************************"; // Replace with your actual bot token
+const CHAT_ID = "**********"; // Replace with your actual chat ID
 
 const sendToTelegram = async (text) => {
   const urlString = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
